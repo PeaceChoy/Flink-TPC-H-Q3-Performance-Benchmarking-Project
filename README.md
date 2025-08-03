@@ -7,6 +7,6 @@ The goal of this project is to analyze and compare the performance of Flink when
 2. 4-threaded execution (flink_4threads.java)
 3. 4-threaded execution with performance optimizations (flink_optimize.java)
 
-Each configuration reads Parquet-formatted TPC-H data from disk using Flink’s batch streaming mode, executes the SQL query, applies custom ProcessFunction logic for monitoring, rate limiting, throughput measurement.
+Each configuration reads Parquet-formatted TPC-H data from disk using Flink’s batch streaming mode, then applies the stream processing, executes the SQL query, applies custom ProcessFunction logic for monitoring, rate limiting, throughput measurement.
 
 * Note: tpch.ipynb is used to generate different scales of TPC-H data including scale_factor = 0.1，1，10，20 from duckdb.
