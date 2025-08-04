@@ -1,5 +1,5 @@
 ### Flink TPC-H Q3 Performance Benchmarking Project
-This project benchmarks the performance of Apache Flink in executing the TPC-H Query 3 (Q3) using different configurations and optimizations. It leverages real-world data generated via DuckDB's TPC-H extension and evaluates Flink's execution efficiency under various threading and optimization strategies.
+This project benchmarks the performance of changed Apache Flink based on Cquirrel's BasedProcessFunction in executing the TPC-H Query 3 (Q3) using different configurations and optimizations. It leverages real-world data generated via DuckDB's TPC-H extension and evaluates Flink's execution efficiency under various threading and optimization strategies.
 
 The goal of this project is to analyze and compare the performance of Flink when processing a complex analytical query (TPC-H Q3) under three distinct configurations:
 
