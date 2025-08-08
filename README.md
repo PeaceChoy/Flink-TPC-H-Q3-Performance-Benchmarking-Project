@@ -10,4 +10,5 @@ The goal of this project is to analyze and compare the performance of Flink when
 Each configuration reads Parquet-formatted TPC-H data from disk using Flink’s batch streaming mode, then applies the stream processing, executes the SQL query, applies custom ProcessFunction logic for monitoring, rate limiting, throughput measurement.
 
 * Note: tpch.ipynb is used to generate different scales of TPC-H data including scale_factor = 0.1，1，10，20 from duckdb.
+* flink_origin_flink.java is the orginal version with flink's keyedprocessfunction, not Cquirrel's BasedProcessFunction.
 * original-flink_benchmark-1.0-SNAPSHOT.jar is put in flink_benchmark\target file
